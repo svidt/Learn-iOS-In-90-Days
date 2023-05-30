@@ -1,14 +1,19 @@
 # Learn iOS In 90 Days
 A personal repository for my journey through CWC Plus - 90 Day Swift Course.
 
-
+## Module 01
 ## Module 02
-**MVVM**
+- **MVVM**
 
-**JSON Data Format**
+- **JSON Data Format**
 
-**More Swift**
+- **More Swift**
 
-**More SwiftUI Views**
+- **More SwiftUI Views**
 
-**Navigations**
+- **Navigations**
+
+## Module 03
+## Module 04
+## Module 05
+## Module 06

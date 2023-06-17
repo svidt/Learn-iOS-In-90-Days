@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct MenuView: View {
+    
+    @State var menuItems:[MenuItem] = [MenuItem]()
+    var dataService = DataService()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        List(menuItems) { item in
+            
+            MenuListRow(item: item)
+        }
+        .listStyle(.plain)
+        .onAppear(perform: {
+            menuItems = dataService.getData()
+        })
+        
+        
     }
 }
 

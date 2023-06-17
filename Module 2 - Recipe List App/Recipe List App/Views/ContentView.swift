@@ -11,9 +11,11 @@ struct ContentView: View {
     
     @ObservedObject var model = PizzaModel()
     
-    @State private var pizzaArray = [String]()
+    @State private var pizzaArray = [String?]()
+    
     
     var body: some View {
+        
         VStack {
             List(model.pizza) { p in
                 VStack(alignment: .leading) {
@@ -45,10 +47,22 @@ struct ContentView: View {
                 Spacer()
                 VStack {
                     Button("Button 1") {
-                        // Code
+                        pizzaArray = [nil]
                     }
                     Button("Button 2") {
-                        // Code
+                        pizzaArray.append("Hello 1")
+                        pizzaArray.append("Hello 2")
+                        pizzaArray.append("Hello 3")
+                        
+                    }
+                    if pizzaArray != nil {
+                        List(pizzaArray, id: \.self) { p in
+                            Text(p!)
+                        }
+                    } else {
+                        Text("Array is ")
+                        Text("nil").bold()
+                        Text("Tap Button 2")
                     }
                 }
                 

@@ -17,6 +17,7 @@
 		689831EA2A3E623900545FF8 /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689831E72A3E623900545FF8 /* MenuListRow.swift */; };
 		689831EB2A3E623900545FF8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689831E82A3E623900545FF8 /* DataService.swift */; };
 		689831EC2A3E623900545FF8 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689831E92A3E623900545FF8 /* MenuItem.swift */; };
+		689831EE2A3F72C800545FF8 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689831ED2A3F72C800545FF8 /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		689831E72A3E623900545FF8 /* MenuListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
 		689831E82A3E623900545FF8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		689831E92A3E623900545FF8 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		689831ED2A3F72C800545FF8 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				6897B6F52A3E60DD00A6EF5C /* MainView.swift */,
 				689831D52A3E61A200545FF8 /* AboutView.swift */,
 				689831D72A3E61B300545FF8 /* GalleryView.swift */,
+				689831ED2A3F72C800545FF8 /* PhotoView.swift */,
 				689831D92A3E61C500545FF8 /* MenuView.swift */,
 				6897B6F72A3E60DE00A6EF5C /* Assets.xcassets */,
 				6897B6F92A3E60DE00A6EF5C /* Preview Content */,
@@ -158,6 +161,7 @@
 				689831DA2A3E61C500545FF8 /* MenuView.swift in Sources */,
 				689831EB2A3E623900545FF8 /* DataService.swift in Sources */,
 				689831EA2A3E623900545FF8 /* MenuListRow.swift in Sources */,
+				689831EE2A3F72C800545FF8 /* PhotoView.swift in Sources */,
 				6897B6F62A3E60DD00A6EF5C /* MainView.swift in Sources */,
 				689831D62A3E61A200545FF8 /* AboutView.swift in Sources */,
 				689831EC2A3E623900545FF8 /* MenuItem.swift in Sources */,

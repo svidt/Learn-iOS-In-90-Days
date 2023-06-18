@@ -2,7 +2,7 @@
 //  MenuListRow.swift
 //  The Menu App
 //
-//  Created by Kristian Emil Hansen Svidt on 17/06/2023.
+//  Created by Svidt on 17/06/2023.
 //
 
 import SwiftUI

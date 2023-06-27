@@ -13,15 +13,30 @@ struct DetailView: View {
     
     var body: some View {
         
-        ScrollView {
+        VStack(spacing: 20) {
             Image(attraction.imageName)
                 .resizable()
-                .scaledToFit()
-            Text(attraction.name)
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-            Text(attraction.longDescription)
-
+                .aspectRatio(contentMode: .fill)
+                .frame(height: 300)
+            
+            ScrollView(showsIndicators: false) {
+                VStack(alignment: .leading) {
+                    Text(attraction.name)
+                        .font(.title)
+                        .bold()
+                    
+                    Text(attraction.longDescription)
+                        .multilineTextAlignment(.leading)
+                    
+                    
+                }
+                .padding(.bottom, 20)
+                
+            }
+            .padding(.horizontal)
         }
+        .ignoresSafeArea()
+        
     }
 }
 

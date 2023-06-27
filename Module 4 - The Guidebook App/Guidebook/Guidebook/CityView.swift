@@ -14,21 +14,33 @@ struct CityView: View {
     
     var body: some View {
         
-        ScrollView {
+        NavigationStack {
             
-            VStack {
-                
-                ForEach(cities) { city in
+            ScrollView(showsIndicators: false) {
+                VStack {
                     
-                    Text(city.name)
-                    
+                    ForEach(cities) { city in
+                        
+                        NavigationLink {
+                            AttractionView(city: city)
+                        } label: {
+                            CityCard(city: city)
+                                .padding(.bottom)
+                        }
+
+                        
+                        
+                    }
                 }
             }
+            .padding(.horizontal)
+            
         }
-        .padding()
+        .ignoresSafeArea()
         .onAppear {
             cities = dataService.getData()
         }
+        
     }
 }
 

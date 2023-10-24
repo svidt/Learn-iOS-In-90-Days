@@ -2,14 +2,14 @@
 //  Attraction.swift
 //  Guidebook
 //
-//  Created by Kristian Emil Hansen Svidt on 26/06/2023.
+//  Created by Svidt on 26/06/2023.
 //
 
 import Foundation
 
-struct Attraction: Identifiable {
+struct Attraction: Identifiable, Decodable {
     
-    var id = UUID()
+    let id = UUID()
     var name: String
     var summary: String
     var longDescription: String

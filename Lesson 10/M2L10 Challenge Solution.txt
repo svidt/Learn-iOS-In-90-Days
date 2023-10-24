@@ -1,0 +1,6 @@
+This challenge was actually something I made a long time ago for a Swift Dictionaries lesson!
+
+I also made a solution video where I coded the solution:
+https://youtu.be/wpRlKzNS5Y4?t=516
+
+Check out the link above to see the solution!

@@ -2,7 +2,7 @@
 //  AttractionRow.swift
 //  Guidebook
 //
-//  Created by Kristian Emil Hansen Svidt on 27/06/2023.
+//  Created by Svidt on 27/06/2023.
 //
 
 import SwiftUI
